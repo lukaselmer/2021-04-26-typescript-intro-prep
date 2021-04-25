@@ -1,0 +1,19 @@
+{
+  "name": "typescript-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lukas Elmer <lukas.elmer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assert-never": "^1.2.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "watch-tsc": "tsc --watch",
+    "watch-node": "nodemon build/index.js"
+  },
+  "type": "module"
+}
